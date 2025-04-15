@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 
-export default function Home MAWebCalculator() {
+export default function Home() {
   const [ticker, setTicker] = useState('QQQ');
   const [maPeriod, setMaPeriod] = useState(150);
   const [price, setPrice] = useState(0);
